@@ -3,6 +3,7 @@
 ## Base generic implementation using repository and unit of work design pattern of crud operations in .NET Standard 2.1
 
 # Installation
+CLI
 ``` cli
  dotnet add package CommonGenericClasses --version 7.0.0
 ```
