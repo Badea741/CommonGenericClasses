@@ -1,7 +1,11 @@
-namespace CommonGenericClasses;
-public abstract class BaseEntity
+using System;
+
+namespace CommonGenericClasses
 {
-    public Guid Id { get; set; }
-    public DateTime CreationDate { get; set; }
-    public byte[] ConcurrencyStamp { get; set; }=null!;
+    public abstract class BaseEntity
+    {
+        public Guid Id { get; set; }
+        public DateTime CreationDate { get; set; }
+        public byte[] ConcurrencyStamp { get; set; } = null!;
+    }
 }
