@@ -1,6 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>CommonGenericClasses</PackageId>
+    <version>2.0.0</version>
+    <License>MS-PL</License>
+    <Authors>Muhammad Badea</Authors>
+    <Description>
+    Base generic implementation using repository and unit of work design pattern to crud operations in .NET Standard 2.1
+    </Description>
+    <PackageTags>Generic;Repository;UnitOfWork;Crud;Base;Implementation;Design;Pattern;DotNetStandard2.1;</PackageTags>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
   </PropertyGroup>
