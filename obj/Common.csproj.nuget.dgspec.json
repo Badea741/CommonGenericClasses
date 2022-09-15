@@ -5,10 +5,10 @@
   },
   "projects": {
     "/home/mab/Desktop/SoccerProject/Src/Common/Common.csproj": {
-      "version": "1.0.0",
+      "version": "7.0.0",
       "restore": {
         "projectUniqueName": "/home/mab/Desktop/SoccerProject/Src/Common/Common.csproj",
-        "projectName": "Common",
+        "projectName": "CommonGenericClasses",
         "projectPath": "/home/mab/Desktop/SoccerProject/Src/Common/Common.csproj",
         "packagesPath": "/home/mab/.nuget/packages/",
         "outputPath": "/home/mab/Desktop/SoccerProject/Src/Common/obj/",

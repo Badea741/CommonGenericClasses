@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>CommonGenericClasses</PackageId>
-    <version>2.0.0</version>
+    <version>7.0.0</version>
     <License>MS-PL</License>
     <Authors>Muhammad Badea</Authors>
     <Description>
