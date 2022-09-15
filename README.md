@@ -1,6 +1,6 @@
 # CommonGenericClasses
 
-## Base generic implementation using repository and unit of work design pattern of crud operations in .NET Standard 2.1
+## Base generic implementation using Repository & Unit of work Design Pattern of CRUD operations in .NET Standard 2.1
 
 # Installation
 CLI
@@ -27,6 +27,7 @@ public class PlayerRepository : BaseRepo<Player>
     }
 }
 ```
+Now all CRUD operations are available for `PlayerRepository`
 
 
 
