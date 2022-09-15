@@ -6,6 +6,9 @@
 ``` cli
  dotnet add package CommonGenericClasses --version 7.0.0
 ```
+PM ``` cli
+Install-Package CommonGenericClasses -Version 7.0.0
+```
 
 # Usage
 ``` C#
