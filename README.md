@@ -1,17 +1,17 @@
 # CommonGenericClasses
 
-## Base generic implementation using Repository & Unit of work Design Pattern of CRUD operations in .NET 6.0
+## Base generic implementation using Repository & Unit of Work Design Pattern of CRUD operations in .NET 6.0
 
 # Installation
 CLI
 ``` cli
- dotnet add package CommonGenericClasses --version 7.1.0
+ dotnet add package CommonGenericClasses --version 7.1.1
 ```
 PM 
 ``` cli
-Install-Package CommonGenericClasses -Version 7.1.0
+Install-Package CommonGenericClasses -Version 7.1.1
 ```
-## note : for netstandard2.1 replace version 7.1.0 with 7.0.0
+## note : for netstandard2.1 use version 7.0.0
 
 # Usage
 ``` C#

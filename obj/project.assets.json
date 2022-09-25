@@ -4444,7 +4444,7 @@
     "/home/mab/.nuget/packages/": {}
   },
   "project": {
-    "version": "7.1.0",
+    "version": "7.1.1",
     "restore": {
       "projectUniqueName": "/home/mab/CommonGenericClasses/Common.csproj",
       "projectName": "CommonGenericClasses",
