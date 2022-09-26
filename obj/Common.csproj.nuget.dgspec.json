@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/mab/CommonGenericClasses/Common.csproj": {
-      "version": "7.1.1",
+      "version": "7.1.2",
       "restore": {
         "projectUniqueName": "/home/mab/CommonGenericClasses/Common.csproj",
         "projectName": "CommonGenericClasses",
