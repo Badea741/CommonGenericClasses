@@ -5,13 +5,12 @@
 # Installation
 CLI
 ``` cli
- dotnet add package CommonGenericClasses --version 7.1.2
+ dotnet add package CommonGenericClasses --version 8.0.0
 ```
 PM 
 ``` cli
-Install-Package CommonGenericClasses -Version 7.1.2
+Install-Package CommonGenericClasses -Version 8.0.0
 ```
-## note : for netstandard2.1 use version 7.0.0
 
 # Usage
 ``` C#
