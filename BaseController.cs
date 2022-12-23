@@ -33,7 +33,6 @@ namespace CommonGenericClasses
             _mapper = mapper;
             _validator = validator;
         }
-        // DELETE api/<ProductsController>/5
         [HttpDelete("{id}")]
         public virtual async Task<ActionResult> Delete(Guid id)
         {
@@ -43,7 +42,6 @@ namespace CommonGenericClasses
             return Ok(_mapper.Map<TDto>(entity));
         }
 
-        // GET: api/<ProductsController>
         [HttpGet]
         public virtual async Task<IActionResult> Get()
         {
@@ -51,7 +49,6 @@ namespace CommonGenericClasses
             return Ok(entities.Select(product => _mapper.Map<TDto>(product)));
         }
 
-        // GET api/<ProductsController>/5
         [HttpGet("{id}")]
         public virtual async Task<IActionResult> Get(Guid id)
         {
@@ -61,7 +58,6 @@ namespace CommonGenericClasses
             return Ok(entityViewModel);
         }
 
-        // POST api/<ProductsController>
         [HttpPost]
         public virtual async Task<IActionResult> Post([FromBody] TDto entityViewModel)
         {
@@ -83,24 +79,24 @@ namespace CommonGenericClasses
             }
         }
 
-        // PUT api/<ProductsController>/5
         [HttpPut]
-        public virtual async Task<IActionResult> Put([FromBody] TEntity entity)
+        public virtual async Task<IActionResult> Put([FromBody] TDto dto)
         {
+            var entity = _mapper.Map<TEntity>(dto);
             var results = _validator.Validate(entity);
             if (!results.IsValid)
                 return BadRequest(results.Errors.Select(e => e.ErrorMessage));
-            entity = _unitOfWork.Update(entity);
+            entity = await _unitOfWork.Update(entity);
             try
             {
                 await _unitOfWork.SaveAsync();
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.InnerException.Message);
+                return BadRequest(ex.Message);
             }
 
-            return Ok(_mapper.Map<TDto>(entity));
+            return Ok(_mapper.Map<TDto>(dto));
         }
     }
 }

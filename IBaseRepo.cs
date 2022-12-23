@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace CommonGenericClasses
 {
 #nullable disable
-    public interface IBaseRepo<TEntity> where TEntity : class
+    public interface IBaseRepo<TEntity> where TEntity : BaseEntity
     {
         Task<TEntity> AddAsync(TEntity entity);
         void Dispose();
-        TEntity Edit(TEntity entity);
+        Task<TEntity> Edit(TEntity entity);
         Task<IEnumerable<TEntity>> Get(Expression<Func<TEntity, bool>> predicate = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string include = "");
         Task<List<TEntity>> GetAllAsync();
         Task<TEntity> GetByIdAsync(object id);

@@ -8,7 +8,7 @@ namespace CommonGenericClasses
 {
 
 #nullable disable
-    public abstract class BaseUnitOfWork<TEntity> : IDisposable, IBaseUnitOfWork<TEntity> where TEntity : class
+    public abstract class BaseUnitOfWork<TEntity> : IDisposable, IBaseUnitOfWork<TEntity> where TEntity : BaseEntity
     {
         protected readonly IBaseRepo<TEntity> _repo;
 
@@ -46,9 +46,9 @@ namespace CommonGenericClasses
         {
             return await _repo.Get(predicate, orderBy, include);
         }
-        public virtual TEntity Update(TEntity entity)
+        public async virtual Task<TEntity> Update(TEntity entity)
         {
-            return _repo.Edit(entity);
+            return await _repo.Edit(entity);
         }
 
         public virtual async Task<string> SaveAsync()

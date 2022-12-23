@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mab/CommonGenericClasses/Common.csproj": {}
+    "/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/Common.csproj": {}
   },
   "projects": {
-    "/home/mab/CommonGenericClasses/Common.csproj": {
+    "/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/Common.csproj": {
       "version": "7.1.2",
       "restore": {
-        "projectUniqueName": "/home/mab/CommonGenericClasses/Common.csproj",
+        "projectUniqueName": "/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/Common.csproj",
         "projectName": "CommonGenericClasses",
-        "projectPath": "/home/mab/CommonGenericClasses/Common.csproj",
+        "projectPath": "/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/Common.csproj",
         "packagesPath": "/home/mab/.nuget/packages/",
-        "outputPath": "/home/mab/CommonGenericClasses/obj/",
+        "outputPath": "/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mab/.nuget/NuGet/NuGet.Config"

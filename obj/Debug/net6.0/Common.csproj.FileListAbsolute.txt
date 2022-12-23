@@ -22,3 +22,15 @@
 /src/Src/Common/obj/Debug/net6.0/refint/Common.dll
 /src/Src/Common/obj/Debug/net6.0/Common.pdb
 /src/Src/Common/obj/Debug/net6.0/ref/Common.dll
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/Common.csproj.AssemblyReference.cache
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/Common.AssemblyInfoInputs.cache
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/Common.AssemblyInfo.cs
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/Common.csproj.CoreCompileInputs.cache
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/Common.dll
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/refint/Common.dll
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/Common.pdb
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/bin/Debug/net6.0/Common.deps.json
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/bin/Debug/net6.0/Common.dll
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/bin/Debug/net6.0/Common.pdb
+/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/obj/Debug/net6.0/ref/Common.dll

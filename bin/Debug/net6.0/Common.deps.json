@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Common/1.0.0": {
+      "Common/7.1.2": {
         "dependencies": {
           "AutoMapper": "11.0.1",
           "FluentValidation": "11.2.1",
@@ -847,7 +847,7 @@
     }
   },
   "libraries": {
-    "Common/1.0.0": {
+    "Common/7.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

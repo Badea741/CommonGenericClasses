@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yWYeAurZy0ycQNHrIM0GpdIMXe1mylIJvXrWVG95Rfq1bJtoJ3nWie9opatkTFeyQtdn0p3Lnn6uqKN1tNm1xA==",
+  "dgSpecHash": "l5QsCvV7+JZMIGSEZT16WpemmcxotybM1sTv68NrDlV7kvaclJNGTiwV6kZSRgMauuZFl+j8ZGEeV5bB+aWipw==",
   "success": true,
-  "projectFilePath": "/home/mab/CommonGenericClasses/Common.csproj",
+  "projectFilePath": "/home/mab/Desktop/SoccerApi/Src/CommonGenericClasses/Common.csproj",
   "expectedPackageFiles": [
     "/home/mab/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/mab/.nuget/packages/fluentvalidation/11.2.1/fluentvalidation.11.2.1.nupkg.sha512",
