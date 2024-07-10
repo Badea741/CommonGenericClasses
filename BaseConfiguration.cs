@@ -9,6 +9,6 @@ public class BaseConfiguration<TEntity> : IEntityTypeConfiguration<TEntity> wher
     {
         builder.HasKey(e => e.Id);
         builder.Property(e => e.Id).ValueGeneratedOnAdd();
-        builder.Property(e => e.CreationDate).HasDefaultValue(DateTime.Now);
+        builder.Property(e => e.CreationDate).HasDefaultValue(DateTime.UtcNow);
     }
 }
